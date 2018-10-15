@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.0.aar\eb79d4662a8181c8dd446d0833ed54c7\AndroidManifest.xml:14:4-17:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:3:5-56
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:5-73
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:5-73
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:5-73
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.0.aar\eb79d4662a8181c8dd446d0833ed54c7\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.0.aar\eb79d4662a8181c8dd446d0833ed54c7\AndroidManifest.xml:15:5-42
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:5-73
+INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:5-73
+	android:targetSdkVersion
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:41-70
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:5:15-40
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+		INJECTED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:9:22-76
+application
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:11:5-33:19
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.0.aar\eb79d4662a8181c8dd446d0833ed54c7\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.0.aar\eb79d4662a8181c8dd446d0833ed54c7\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:15:9-40
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:17:9-18:69
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\2509h\.gradle\caches\transforms-1\files-1.1\play-services-6.5.87.aar\13295fecfe4e187f57423ccea4aac055\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:17:20-65
+activity#jp.techacademy.hiroko.ando.jumpactiongame.AndroidLauncher
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:19:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:23:13-107
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:20:13-85
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:26:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:30:9-32:64
+	android:configChanges
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:32:13-61
+	android:name
+		ADDED from C:\Users\2509h\Documents\JumpActionGame\android\AndroidManifest.xml:30:19-71
