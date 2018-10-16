@@ -3,6 +3,8 @@ package jp.techacademy.hiroko.ando.jumpactiongame;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.ScreenAdapter;
+import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
@@ -46,6 +48,10 @@ public class GameScreen extends ScreenAdapter {
     Player mPlayer;
     List<Enemy> mEnemy;//new
 
+    //Sound
+    Sound sound;
+    Music backmusic;
+
     float mHeightSoFar;
     int mGameState;
     Vector3 mTouchPoint;
@@ -81,8 +87,10 @@ public class GameScreen extends ScreenAdapter {
         mRandom = new Random();
         mSteps = new ArrayList<Step>();
         mStars = new ArrayList<Star>();
+        mEnemy = new ArrayList<Enemy>();
         mGameState = GAME_STATE_READY;
         mTouchPoint = new Vector3();
+
 
         //文字
         mFont = new BitmapFont(Gdx.files.internal("font.fnt"), Gdx.files.internal("font.png"), false);
@@ -171,6 +179,10 @@ public class GameScreen extends ScreenAdapter {
         Texture playerTexture = new Texture("uma.png");
         Texture ufoTexture = new Texture("ufo.png");
         Texture enemyTexture = new Texture("enemy.png");//new
+        sound = Gdx.audio.newSound(Gdx.files.internal("tm2_hit004.mp3"));
+        backmusic = Gdx.audio.newMusic(Gdx.files.internal("backmusic.mp3"));
+        backmusic.setVolume(0.5f);
+        backmusic.setLooping(true);
 
         // StepとStarをゴールの高さまで配置していく
         float y = 0;
@@ -191,9 +203,10 @@ public class GameScreen extends ScreenAdapter {
             }
 
             //new
-            if (mRandom.nextFloat() < 0.1f){
+            if (mRandom.nextFloat() < 0.15f){
                 Enemy enemy = new Enemy(enemyTexture,0,0,72,72);
                 enemy.setPosition(step.getX() + mRandom.nextFloat(),step.getY() + Enemy.Enemy_HEIGHT + mRandom.nextFloat() * 3);
+                mEnemy.add(enemy);
             }
 
             y += (maxJumpHeight - 0.5f);
@@ -265,9 +278,13 @@ public class GameScreen extends ScreenAdapter {
 
         // ゲームオーバーか判断する
         checkGameOver();
+
+        //music
+        backmusic.play();
     }
 
     private void updateGameOver() {
+        backmusic.stop();
         if (Gdx.input.justTouched()) {
             mGame.setScreen(new ResultScreen(mGame, mScore));
         }
@@ -300,6 +317,7 @@ public class GameScreen extends ScreenAdapter {
             }
 
             if(mPlayer.getBoundingRectangle().overlaps(enemy.getBoundingRectangle())){
+                sound.play(1.0f);
                 enemy.vanish();
                 mHP--;
                 break;
@@ -343,7 +361,7 @@ public class GameScreen extends ScreenAdapter {
             if (mPlayer.getY() > step.getY()) {
                 if (mPlayer.getBoundingRectangle().overlaps(step.getBoundingRectangle())) {
                     mPlayer.hitStep();
-                    if (mRandom.nextFloat() > 0.5f) {
+                    if (mRandom.nextFloat() > 0.7f) {
                         step.vanish();
                     }
                     break;

@@ -1,4 +1,4 @@
-#Mon Oct 15 20:47:37 JST 2018
+#Mon Oct 15 22:38:26 JST 2018
 base.0=C\:\\Users\\2509h\\Documents\\JumpActionGame\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 path.1=classes.dex
 renamed.1=classes2.dex
